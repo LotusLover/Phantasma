@@ -9,7 +9,7 @@ from urllib.parse import unquote
 def validate(root):
     root = Path(root).resolve()
     errors = []
-    drive_path = re.compile(r'[A-Za-z]' + chr(58) + r'[\\/]')
+    drive_path = re.compile(r'(?<![A-Za-z0-9_])[A-Za-z]' + chr(58) + r'[\\/]')
     secret = re.compile(r'(?i)(?:gh[pousr]_[A-Za-z0-9]{15,}|github_pat_[A-Za-z0-9_]{15,}|sk-[A-Za-z0-9_-]{16,})')
     forbidden = {'.env','hosts.yml','inventory.json','projects.json','verification.key'}
     text_types = {'.md','.json','.yml','.yaml','.py','.txt','.ts','.tsx','.html','.css'}

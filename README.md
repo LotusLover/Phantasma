@@ -17,6 +17,7 @@
 - [技術記事・サンプルの案内](projects/cost-control.md)
 - [オフラインの費用計算サンプル](samples/cost-ledger/README.md)
 - [成果物と確認状態](evidence/README.md)
+- [ActionTriの資料生成・転送の確認記録](evidence/actiontri-package-v1.json)
 
 ## 完了の考え方
 

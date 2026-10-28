@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project": "ActionTri",
+  "issue": "https://github.com/LotusLover/Phantasma/issues/1",
+  "operation": "文書3点の梱包、実行基盤での保存・転送、保存したバイトの照合",
+  "artifact": {
+    "version": "v1",
+    "sha256": "b625a603d5a49c340d532145e541a24b02e227ce1694134075c5ece47259c89f",
+    "size_bytes": 3364,
+    "distribution": "local review candidate; not a public game download"
+  },
+  "execution": "既存LotusLandの実APIを隔離した保存先で一時起動し、固定の文書梱包処理を実行",
+  "validation": {
+    "status": "passed",
+    "kind": "artifact_integrity",
+    "scope": "資料ファイルの生成、転送、バイト数とSHA-256の一致",
+    "game_runtime": "not_run",
+    "android_input": "not_run",
+    "separate_pc": "not_run",
+    "human_playtest": "not_run",
+    "human_acceptance": "not_run"
+  },
+  "public_status": "検証待ち"
+}
