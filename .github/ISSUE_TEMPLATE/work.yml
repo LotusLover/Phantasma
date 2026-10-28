@@ -1,0 +1,27 @@
+name: 作業・成果物
+description: 目的と受入条件を決めて作業を進める
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 目的
+      description: 誰が何をできるようになるか
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 作業範囲と成果物
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 受入条件
+      description: 機械的な確認と、人・実機が必要な確認を分ける
+    validations:
+      required: true
+  - type: textarea
+    id: unknowns
+    attributes:
+      label: 未確認・待機理由

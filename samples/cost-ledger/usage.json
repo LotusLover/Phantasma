@@ -1,0 +1,5 @@
+{
+  "input_tokens": 100000,
+  "cached_input_tokens": 40000,
+  "output_tokens": 10000
+}
